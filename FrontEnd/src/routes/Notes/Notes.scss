@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 8rem;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  border: solid 2px black;
+  border-radius: 12px;
+  width: 30rem;
+  min-height: 10rem;
+  font-size: 1.3rem;
+
+  &-Button {
+    all: unset;
+    cursor: pointer;
+  }
+}
+
+.Text {
+  background-color: #f5f5db;
+}
+.CheckList {
+  background-color: rgb(185, 238, 220);
+}
+
+.Add {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  border: 1px solid greenyellow;
+  padding: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: greenyellow;
+  }
+}
+
+.Delete {
+  background-color: red;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 23px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(107, 4, 4);
+  }
+}
